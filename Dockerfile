@@ -12,7 +12,8 @@ RUN apt-get update \
         libxml2-dev \
         libxslt1-dev \
         python \
-        python-dev
+        python-dev \
+        unzip
 
 WORKDIR /usr/src
 

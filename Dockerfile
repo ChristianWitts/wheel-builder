@@ -1,5 +1,9 @@
 FROM ubuntu:12.04
 
+LABEL Maintainer="Christian Witts <cwitts@gmail.com>"
+LABEL Repo="https://github.com/ChristianWitts/wheel-builder"
+LABEL DESCRIPTION="A Python wheel builder for your dependencies"
+
 RUN apt-get update \
  && apt-get install -y \
         build-essential \

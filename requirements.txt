@@ -1,4 +1,4 @@
 APScheduler==3.5.1
-Django==1.11.13
+Django~>1.11.15
 Pillow==5.2.0
 protobuf==2.6.0
